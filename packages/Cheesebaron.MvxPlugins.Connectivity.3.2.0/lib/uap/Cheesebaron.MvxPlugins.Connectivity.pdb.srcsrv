@@ -1,0 +1,15 @@
+SRCSRV: ini ------------------------------------------------
+VERSION=2
+SRCSRV: variables ------------------------------------------
+RAWURL=https://raw.github.com/Cheesebaron/Cheesebaron.MvxPlugins/4bd5ff6662b79c28ce7c0e65740f57f6196e9ee3/%var2%
+SRCSRVVERCTRL=https
+SRCSRVTRG=%RAWURL%
+SRCSRV: source files ---------------------------------------
+C:\projects\cheesebaron-mvxplugins\Connectivity\Core\BaseConnectivityService.cs*Connectivity/Core/BaseConnectivityService.cs
+C:\projects\cheesebaron-mvxplugins\Connectivity\Core\ConnectivityStatusChangedMessage.cs*Connectivity/Core/ConnectivityStatusChangedMessage.cs
+C:\projects\cheesebaron-mvxplugins\Connectivity\Core\IConnectivity.cs*Connectivity/Core/IConnectivity.cs
+C:\projects\cheesebaron-mvxplugins\Connectivity\Core\IWifi.cs*Connectivity/Core/IWifi.cs
+C:\projects\cheesebaron-mvxplugins\Connectivity\Core\Models\WifiInfo.cs*Connectivity/Core/Models/WifiInfo.cs
+C:\projects\cheesebaron-mvxplugins\Connectivity\Core\PluginLoader.cs*Connectivity/Core/PluginLoader.cs
+C:\projects\cheesebaron-mvxplugins\Connectivity\Core\Properties\AssemblyInfo.cs*Connectivity/Core/Properties/AssemblyInfo.cs
+SRCSRV: end ------------------------------------------------

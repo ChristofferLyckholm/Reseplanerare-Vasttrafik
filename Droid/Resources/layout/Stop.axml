@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main_content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:id="@+id/lvToDoList">
+        <TextView
+            android:paddingTop="10dp"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-condensed"
+            android:text="Välj hållplats"
+            android:layout_width="fill_parent"
+            android:gravity="center"
+            android:textAlignment="gravity"
+            android:layout_height="wrap_content" />
+    <!-- stop -->
+    <!-- stop -->
+        <FrameLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <AutoCompleteTextView
+                    android:inputType="textNoSuggestions"
+                    android:id="@+id/stop"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:enabled="true"
+                    android:hint="Hållplats"
+                    android:singleLine="true" />
+            </android.support.design.widget.TextInputLayout>
+        </FrameLayout>
+        <TextView
+            android:paddingTop="10dp"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-condensed"
+            android:text="Härligt, du är klar. Den hållplats som är mest aktuell (närmast) kommer att visas. På detta sätet får du alltid aktuell hållplatsinformation"
+            android:layout_width="fill_parent"
+            android:gravity="center"
+            android:textAlignment="gravity"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right"
+        android:layout_margin="24dp"
+        android:id="@+id/fabAddStop"
+        android:src="@drawable/ic_check_white_48dp"
+        app:layout_anchor="@id/lvToDoList"
+        app:layout_anchorGravity="bottom|right|end" />
+</android.support.design.widget.CoordinatorLayout>

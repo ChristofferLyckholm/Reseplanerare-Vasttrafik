@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:stops="http://schemas.android.com/apk/res-auto">
+	<item  
+	    android:id="@+id/likeButton"
+	    android:icon="@drawable/facebook_like_us"
+	    android:title="Like"
+	    stops:showAsAction="always"
+	/>
+</menu>

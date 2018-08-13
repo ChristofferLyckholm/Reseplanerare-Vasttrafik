@@ -1,0 +1,14 @@
+﻿<Properties StartupConfiguration="{F2557467-937D-48BB-9F52-05A58FC663E3}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Core/Http/API.cs">
+    <Files>
+      <File FileName="Core/Http/API.cs" Line="21" Column="38" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Droid PreferredExecutionTarget="Android.Android_Accelerated_Oreo" />
+  <MultiItemStartupConfigurations />
+</Properties>

@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectTypeGuids>{EFBA0AD7-5A72-4C68-AF49-83D382785DCF};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <ProjectGuid>{F2557467-937D-48BB-9F52-05A58FC663E3}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>stops</RootNamespace>
+    <MonoAndroidAssetsPrefix>Assets</MonoAndroidAssetsPrefix>
+    <MonoAndroidResourcePrefix>Resources</MonoAndroidResourcePrefix>
+    <AndroidResgenClass>Resource</AndroidResgenClass>
+    <AndroidResgenFile>Resources\Resource.designer.cs</AndroidResgenFile>
+    <AndroidApplication>True</AndroidApplication>
+    <AndroidUseLatestPlatformSdk>False</AndroidUseLatestPlatformSdk>
+    <AssemblyName>stops</AssemblyName>
+    <AndroidManifest>Properties\AndroidManifest.xml</AndroidManifest>
+    <TargetFrameworkVersion>v5.1</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AndroidLinkMode>None</AndroidLinkMode>
+    <ConsolePause>false</ConsolePause>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AndroidUseSharedRuntime>false</AndroidUseSharedRuntime>
+    <ConsolePause>false</ConsolePause>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="Mono.Android" />
+    <Reference Include="Ninject">
+      <HintPath>..\packages\Portable.Ninject.3.3.1\lib\monoandroid\Ninject.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\packages\Newtonsoft.Json.8.0.3\lib\portable-net40+sl5+wp80+win8+wpa81\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="ModernHttpClient">
+      <HintPath>..\packages\modernhttpclient.2.4.2\lib\MonoAndroid\ModernHttpClient.dll</HintPath>
+    </Reference>
+    <Reference Include="OkHttp">
+      <HintPath>..\packages\modernhttpclient.2.4.2\lib\MonoAndroid\OkHttp.dll</HintPath>
+    </Reference>
+    <Reference Include="FloatingActionButton-Xamarin">
+      <HintPath>..\packages\FAB.XamarinAndroid.1.6.2.0\lib\MonoAndroid50\FloatingActionButton-Xamarin.dll</HintPath>
+    </Reference>
+    <Reference Include="PCLStorage">
+      <HintPath>..\packages\PCLStorage.1.0.2\lib\monoandroid\PCLStorage.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.Android.Export" />
+    <Reference Include="Xamarin.Android.Support.v8.RenderScript">
+      <HintPath>..\packages\Xamarin.Android.Support.v8.RenderScript.23.2.1\lib\MonoAndroid403\Xamarin.Android.Support.v8.RenderScript.dll</HintPath>
+    </Reference>
+    <Reference Include="StickyHeader">
+      <HintPath>..\Components\stickyheader-1.1.1\lib\android\StickyHeader.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.Android.Support.v7.CardView">
+      <HintPath>..\packages\Xamarin.Android.Support.v7.CardView.23.2.1\lib\MonoAndroid403\Xamarin.Android.Support.v7.CardView.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.GooglePlayServices.Basement">
+      <HintPath>..\packages\Xamarin.GooglePlayServices.Basement.29.0.0.1\lib\MonoAndroid41\Xamarin.GooglePlayServices.Basement.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.GooglePlayServices.Base">
+      <HintPath>..\packages\Xamarin.GooglePlayServices.Base.29.0.0.1\lib\MonoAndroid41\Xamarin.GooglePlayServices.Base.dll</HintPath>
+    </Reference>
+    <Reference Include="Plugin.Settings">
+      <HintPath>..\packages\Xam.Plugins.Settings.2.1.0\lib\MonoAndroid10\Plugin.Settings.dll</HintPath>
+    </Reference>
+    <Reference Include="Plugin.Settings.Abstractions">
+      <HintPath>..\packages\Xam.Plugins.Settings.2.1.0\lib\MonoAndroid10\Plugin.Settings.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http.Extensions">
+      <HintPath>..\packages\Microsoft.Net.Http.2.2.29\lib\monoandroid\System.Net.Http.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http.Primitives">
+      <HintPath>..\packages\Microsoft.Net.Http.2.2.29\lib\monoandroid\System.Net.Http.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="PCLStorage.Abstractions">
+      <HintPath>..\packages\PCLStorage.1.0.2\lib\monoandroid\PCLStorage.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="JazzyViewPager">
+      <HintPath>..\packages\Xamarin.JazzyViewPager.1.0.1\lib\MonoAndroid44\JazzyViewPager.dll</HintPath>
+    </Reference>
+    <Reference Include="Plugin.Connectivity.Abstractions">
+      <HintPath>..\packages\Xam.Plugin.Connectivity.3.1.1\lib\MonoAndroid10\Plugin.Connectivity.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Plugin.Connectivity">
+      <HintPath>..\packages\Xam.Plugin.Connectivity.3.1.1\lib\MonoAndroid10\Plugin.Connectivity.dll</HintPath>
+    </Reference>
+    <Reference Include="MvvmCross.Platform">
+      <HintPath>..\packages\MvvmCross.Platform.5.4.2\lib\MonoAndroid\MvvmCross.Platform.dll</HintPath>
+    </Reference>
+    <Reference Include="MvvmCross.Platform.Droid">
+      <HintPath>..\packages\MvvmCross.Platform.5.4.2\lib\MonoAndroid\MvvmCross.Platform.Droid.dll</HintPath>
+    </Reference>
+    <Reference Include="MvvmCross.Plugins.Messenger">
+      <HintPath>..\packages\MvvmCross.Plugin.Messenger.5.4.2\lib\MonoAndroid\MvvmCross.Plugins.Messenger.dll</HintPath>
+    </Reference>
+    <Reference Include="Cheesebaron.MvxPlugins.Connectivity">
+      <HintPath>..\packages\Cheesebaron.MvxPlugins.Connectivity.3.2.0\lib\MonoAndroid10\Cheesebaron.MvxPlugins.Connectivity.dll</HintPath>
+    </Reference>
+    <Reference Include="Cheesebaron.MvxPlugins.Connectivity.Droid">
+      <HintPath>..\packages\Cheesebaron.MvxPlugins.Connectivity.3.2.0\lib\MonoAndroid10\Cheesebaron.MvxPlugins.Connectivity.Droid.dll</HintPath>
+    </Reference>
+    <Reference Include="Java.Interop" />
+    <Reference Include="Xamarin.GooglePlayServices.Maps">
+      <HintPath>..\packages\Xamarin.GooglePlayServices.Maps.29.0.0.1\lib\MonoAndroid41\Xamarin.GooglePlayServices.Maps.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.GooglePlayServices.Location">
+      <HintPath>..\packages\Xamarin.GooglePlayServices.Location.29.0.0.1\lib\MonoAndroid41\Xamarin.GooglePlayServices.Location.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.Android.Support.v4">
+      <HintPath>..\packages\Xamarin.Android.Support.v4.23.4.0\lib\MonoAndroid403\Xamarin.Android.Support.v4.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.Android.Support.Percent">
+      <HintPath>..\packages\Xamarin.Android.Support.Percent.23.4.0\lib\MonoAndroid403\Xamarin.Android.Support.Percent.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.Android.Support.Recommendation">
+      <HintPath>..\packages\Xamarin.Android.Support.Recommendation.23.4.0\lib\MonoAndroid50\Xamarin.Android.Support.Recommendation.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.Android.Support.v13">
+      <HintPath>..\packages\Xamarin.Android.Support.v13.23.4.0\lib\MonoAndroid403\Xamarin.Android.Support.v13.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.Android.Support.v7.GridLayout">
+      <HintPath>..\packages\Xamarin.Android.Support.v7.GridLayout.23.4.0\lib\MonoAndroid403\Xamarin.Android.Support.v7.GridLayout.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.Android.Support.v7.Palette">
+      <HintPath>..\packages\Xamarin.Android.Support.v7.Palette.23.4.0\lib\MonoAndroid403\Xamarin.Android.Support.v7.Palette.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.Android.Support.v7.RecyclerView">
+      <HintPath>..\packages\Xamarin.Android.Support.v7.RecyclerView.23.4.0\lib\MonoAndroid403\Xamarin.Android.Support.v7.RecyclerView.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.Android.Support.Vector.Drawable">
+      <HintPath>..\packages\Xamarin.Android.Support.Vector.Drawable.23.4.0\lib\MonoAndroid403\Xamarin.Android.Support.Vector.Drawable.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.Android.Support.Animated.Vector.Drawable">
+      <HintPath>..\packages\Xamarin.Android.Support.Animated.Vector.Drawable.23.4.0\lib\MonoAndroid403\Xamarin.Android.Support.Animated.Vector.Drawable.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.Android.Support.v7.AppCompat">
+      <HintPath>..\packages\Xamarin.Android.Support.v7.AppCompat.23.4.0\lib\MonoAndroid403\Xamarin.Android.Support.v7.AppCompat.dll</HintPath>
+    </Reference>
+    <Reference Include="Refractored.PagerSlidingTabStrip">
+      <HintPath>..\packages\Refractored.PagerSlidingTabStrip.1.1.6\lib\MonoAndroid10\Refractored.PagerSlidingTabStrip.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.Android.Support.Design">
+      <HintPath>..\packages\Xamarin.Android.Support.Design.23.4.0\lib\MonoAndroid43\Xamarin.Android.Support.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.Android.Support.v7.MediaRouter">
+      <HintPath>..\packages\Xamarin.Android.Support.v7.MediaRouter.23.4.0\lib\MonoAndroid403\Xamarin.Android.Support.v7.MediaRouter.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.Android.Support.v7.Preference">
+      <HintPath>..\packages\Xamarin.Android.Support.v7.Preference.23.4.0\lib\MonoAndroid41\Xamarin.Android.Support.v7.Preference.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="MainActivity.cs" />
+    <Compile Include="Resources\Resource.designer.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Setup\NinjectLoader.cs" />
+    <Compile Include="Adapters\StopsAdapter.cs" />
+    <Compile Include="Util\ToastManager.cs" />
+    <Compile Include="Implementations\FileSystem.cs" />
+    <Compile Include="Implementations\Toast.cs" />
+    <Compile Include="WidgetFragment.cs" />
+    <Compile Include="StoppingPlacesFragment.cs" />
+    <Compile Include="SplashActivity.cs" />
+    <Compile Include="Implementations\Platform.cs" />
+    <Compile Include="DatePickerDialogFragment.cs" />
+    <Compile Include="TimePickerDialogFragment.cs" />
+    <Compile Include="PickerBase.cs" />
+    <Compile Include="Util\Time.cs" />
+    <Compile Include="SearchFragment.cs" />
+    <Compile Include="Util\EventFragment.cs" />
+    <Compile Include="DateFragment.cs" />
+    <Compile Include="Util\Util.cs" />
+    <Compile Include="RootWidgetFragment.cs" />
+    <Compile Include="RootStoppingPlacesFragment.cs" />
+    <Compile Include="LazyLoadFragment.cs" />
+    <Compile Include="RootSettingsFragment.cs" />
+    <Compile Include="RootStoppingPlaceFragment.cs" />
+    <Compile Include="StoppingPlaceFragment.cs" />
+    <Compile Include="FocuableFragment.cs" />
+    <Compile Include="MapFragment.cs" />
+    <Compile Include="Util\LazyLoad.cs" />
+    <Compile Include="AboutFragment.cs" />
+    <Compile Include="MainMapFragment.cs" />
+    <Compile Include="Helpers\Settings.cs" />
+    <Compile Include="MapBridge.cs" />
+    <Compile Include="StopingPlaceActivity.cs" />
+    <Compile Include="AravalListActivity.cs" />
+    <Compile Include="RootStopFavoritesActivty.cs" />
+    <Compile Include="StopFavoritesFragement.cs" />
+    <Compile Include="RootStopsFavoritesActivty.cs" />
+    <Compile Include="StopsFavoritesFragement.cs" />
+    <Compile Include="FavoriteBridge.cs" />
+    <Compile Include="AravalListFragment.cs" />
+    <Compile Include="Bootstrap\MessengerPluginBootstrap.cs" />
+    <Compile Include="Bootstrap\ConnectivityPluginBootstrap.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AboutResources.txt" />
+    <None Include="Properties\AndroidManifest.xml" />
+    <None Include="Assets\AboutAssets.txt" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\Main.axml" />
+    <AndroidResource Include="Resources\values\Strings.xml" />
+    <AndroidResource Include="Resources\mipmap-hdpi\Icon.png" />
+    <AndroidResource Include="Resources\mipmap-mdpi\Icon.png" />
+    <AndroidResource Include="Resources\mipmap-xhdpi\Icon.png" />
+    <AndroidResource Include="Resources\mipmap-xxhdpi\Icon.png" />
+    <AndroidResource Include="Resources\mipmap-xxxhdpi\Icon.png" />
+    <AndroidResource Include="Resources\layout\Stops.axml" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\ic_check_white_48dp.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\ic_plus_white_48dp.png" />
+    <AndroidResource Include="Resources\anim\hide_to_bottom.xml" />
+    <AndroidResource Include="Resources\anim\jump_from_down.xml" />
+    <AndroidResource Include="Resources\anim\jump_to_down.xml" />
+    <AndroidResource Include="Resources\anim\scale_down.xml" />
+    <AndroidResource Include="Resources\anim\scale_up.xml" />
+    <AndroidResource Include="Resources\anim\show_from_bottom.xml" />
+    <AndroidResource Include="Resources\values\colors.xml" />
+    <AndroidResource Include="Resources\values\dimens.xml" />
+    <AndroidResource Include="Resources\values\styles.xml" />
+    <AndroidResource Include="Resources\drawable\fab_label_background.xml" />
+    <AndroidResource Include="Resources\layout\Stop.axml" />
+    <AndroidResource Include="Resources\layout\StoppingPlaceCard.axml" />
+    <AndroidResource Include="Resources\layout\StoppingPlacesCard.axml" />
+    <AndroidResource Include="Resources\layout\AboutFragmentCard.axml" />
+    <AndroidResource Include="Resources\layout\DropDown.axml" />
+    <AndroidResource Include="Resources\drawable\splash.axml" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\bigicon.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\smallicon.png" />
+    <AndroidResource Include="Resources\Menu\MyMenu.axml" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\maintab.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\star.png" />
+    <AndroidResource Include="Resources\mipmap-xhdpi\NotificationCard.axml" />
+    <AndroidResource Include="Resources\layout\NotificationCard.axml" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\location.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\star_dark.png" />
+    <AndroidResource Include="Resources\layout\SearchFragment.axml" />
+    <AndroidResource Include="Resources\layout\DateFragment.axml" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\facebook_like_us.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\arrow.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\directoin.png" />
+    <AndroidResource Include="Resources\layout\Spinner.axml" />
+    <AndroidResource Include="Resources\layout\SpinnerText.axml" />
+    <AndroidResource Include="Resources\layout\RootWidgetFragment.axml" />
+    <AndroidResource Include="Resources\layout\RootStoppingPlacesFragment.axml" />
+    <AndroidResource Include="Resources\layout\RootSettingsFragment.axml" />
+    <AndroidResource Include="Resources\layout\RootStoppingPlaceFragment.axml" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\clock.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\transperent.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\stop.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\hamburger.png" />
+    <AndroidResource Include="Resources\layout\MapFragment.axml" />
+    <AndroidResource Include="Resources\anim\fade.xml" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\ic_close_white_48dp.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\star_light.png" />
+    <AndroidResource Include="Resources\layout\MainMapFragment.axml" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\marker.png" />
+    <AndroidResource Include="Resources\layout\RootStopFavorites.axml" />
+    <AndroidResource Include="Resources\layout\StopFavoritFragment.axml" />
+    <AndroidResource Include="Resources\layout\RootStopsFavorites.axml" />
+    <AndroidResource Include="Resources\layout\StopsFavoritFragment.axml" />
+    <AndroidResource Include="Resources\drawable\Icon.png" />
+    <AndroidResource Include="Resources\layout\FavoritsListView.axml" />
+    <AndroidResource Include="Resources\layout\AravalListActivity.axml" />
+    <AndroidResource Include="Resources\layout\AravalListFragment.axml" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\ray_start_arrow.png" />
+    <AndroidResource Include="Resources\layout\FavoritsListMultiLIneView.axml" />
+    <AndroidResource Include="Resources\layout\StopRow.axml" />
+    <AndroidResource Include="Resources\layout\FavoritesRow.axml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Resources\drawable\" />
+    <Folder Include="Implementations\" />
+    <Folder Include="Setup\" />
+    <Folder Include="Resources\drawable-xxhdpi\" />
+    <Folder Include="Adapters\" />
+    <Folder Include="Util\" />
+    <Folder Include="Resources\Menu\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
+  <Import Project="..\packages\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets" Condition="Exists('..\packages\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets')" />
+ 
+  <ItemGroup>
+    <ProjectReference Include="..\Core\Core.csproj">
+      <Project>{B55DE03B-8112-4461-AAD6-AC1458FFEAED}</Project>
+      <Name>Core</Name>
+    </ProjectReference>
+  </ItemGroup>
+</Project>

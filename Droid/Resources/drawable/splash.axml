@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item>
+        <color android:color="#FFFF"></color>
+    </item>
+    <item>
+        <bitmap
+            android:gravity="center_vertical|center_horizontal"
+            android:src="@drawable/bigicon" />
+    </item>
+
+</layer-list>

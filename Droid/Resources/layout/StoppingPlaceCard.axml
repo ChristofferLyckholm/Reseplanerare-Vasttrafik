@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/layout_container"
+    android:layout_height="120dp">
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:id="@+id/header"
+        android:layout_height="120dp">
+        <FrameLayout
+            android:layout_width="2dp"
+            android:layout_marginLeft="41dp"
+            android:layout_marginTop="44dp"
+            android:background="#5986c8"
+            android:layout_height="40dp" />
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:id="@+id/stoppingPlaceCardHeaderView"
+            android:layout_height="match_parent">
+            <fragment
+                class="stops.SearchFragment"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:id="@+id/stoppingPlaceCardSearchStop"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+            <fragment
+                android:layout_marginTop="62dp"
+                class="stops.DateFragment"
+                android:id="@+id/stoppingPlaceCardDateStop"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </FrameLayout>
+    </FrameLayout>
+    <fragment
+        android:visibility="invisible"
+        android:id="@+id/stoppingPlaceCardMap"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        class="stops.MapFragment" />
+</FrameLayout>

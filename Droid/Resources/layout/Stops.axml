@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main_content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:id="@+id/lvToDoList">
+        <TextView
+            android:paddingTop="10dp"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-condensed"
+            android:text="Välj hållplatser"
+            android:layout_width="fill_parent"
+            android:gravity="center"
+            android:textAlignment="gravity"
+            android:layout_height="wrap_content" />
+    <!-- From stop -->
+    <!-- From stop -->
+        <FrameLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <AutoCompleteTextView
+                    android:inputType="textNoSuggestions"
+                    android:id="@+id/stopFrom"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:enabled="true"
+                    android:hint="Från-hållplats"
+                    android:singleLine="true" />
+            </android.support.design.widget.TextInputLayout>
+        </FrameLayout>
+    <!-- To stop -->
+    <!-- To stop -->
+        <FrameLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <AutoCompleteTextView
+                    android:inputType="textNoSuggestions"
+                    android:id="@+id/stopTo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:enabled="true"
+                    android:hint="Till-hållplats"
+                    android:singleLine="true" />
+            </android.support.design.widget.TextInputLayout>
+        </FrameLayout>
+        <TextView
+            android:paddingTop="10dp"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-condensed"
+            android:text="Skriv in Kortnamn\r\nTex. 'Hem' i från-fället och 'jobbet' i till-fälltet"
+            android:layout_width="fill_parent"
+            android:gravity="center"
+            android:textAlignment="gravity"
+            android:layout_height="wrap_content" />
+    <!-- From alias stop -->
+    <!-- From alias stop -->
+        <FrameLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <EditText
+                    android:id="@+id/fromAliasText"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Från-kortnamn" />
+            </android.support.design.widget.TextInputLayout>
+        </FrameLayout>
+    <!-- To alias stop -->
+    <!-- To alias stop -->
+        <FrameLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <EditText
+                    android:id="@+id/toAliasText"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Till-kortnamn" />
+            </android.support.design.widget.TextInputLayout>
+        </FrameLayout>
+        <TextView
+            android:paddingTop="10dp"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-condensed"
+            android:text="Härligt, du är klar. Den resan som är mest aktuell (närmast) kommer att visas. På detta sätet får du alltid aktuell reseinformation"
+            android:layout_width="fill_parent"
+            android:gravity="center"
+            android:textAlignment="gravity"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right"
+        android:layout_margin="24dp"
+        android:id="@+id/fabAddStop"
+        android:src="@drawable/ic_check_white_48dp"
+        app:layout_anchor="@id/lvToDoList"
+        app:layout_anchorGravity="bottom|right|end" />
+</android.support.design.widget.CoordinatorLayout>

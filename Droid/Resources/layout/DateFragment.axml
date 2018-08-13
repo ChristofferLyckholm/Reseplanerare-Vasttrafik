@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_marginTop="0dp"
+    android:layout_height="wrap_content">
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginBottom="10dp"
+        card_view:cardElevation="8dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        card_view:cardBackgroundColor="@android:color/white"
+        card_view:cardCornerRadius="0dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="49dp"
+            android:orientation="horizontal">
+            <ImageButton
+                android:textColor="#000000"
+                android:background="@android:color/transparent"
+                android:src="@drawable/clock"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginTop="14dp"
+                android:layout_marginLeft="22dp" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+                <FrameLayout
+                    android:id="@+id/DateFragmentDepartureFrame"
+                    android:layout_width="0dp"
+                    android:layout_weight="0"
+                    android:layout_marginTop="0dp"
+                    android:layout_height="match_parent">
+                    <Spinner
+                        android:layout_marginTop="2dp"
+                        android:paddingLeft="14dp"
+                        android:id="@+id/DateFragmentDepartureSpinner"
+                        android:layout_width="fill_parent"
+                        android:paddingBottom="4dp"
+                        android:paddingTop="0dp"
+                        android:layout_height="fill_parent"
+                        android:entries="@array/when_array" />
+                    <FrameLayout
+                        android:layout_width="fill_parent"
+                        android:layout_marginTop="40dp"
+                        android:background="#dcdcdc"
+                        android:layout_marginLeft="6dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_height="1dp" />
+                    <FrameLayout
+                        android:layout_width="fill_parent"
+                        android:layout_marginTop="41dp"
+                        android:background="#f8f8f8"
+                        android:layout_marginLeft="6dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_height="1dp" />
+                </FrameLayout>
+                <FrameLayout
+                    android:id="@+id/DateFragmentTimeFrame"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_marginTop="0dp"
+                    android:layout_height="wrap_content">
+                    <EditText
+                        android:singleLine="true"
+                        android:focusable="false"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginLeft="14dp"
+                        android:id="@+id/fromAliasText"
+                        android:fontFamily="sans-serif-condensed"
+                        android:background="@android:color/transparent"
+                        android:inputType="textNoSuggestions"
+                        android:textSize="16dp"
+                        android:layout_width="fill_parent"
+                        android:layout_height="17dp"
+                        android:textColor="#8a8a8a"
+                        android:text="idag 13:37" />
+                    <FrameLayout
+                        android:layout_width="fill_parent"
+                        android:layout_marginTop="40dp"
+                        android:background="#dcdcdc"
+                        android:layout_marginLeft="6dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_height="1dp" />
+                    <FrameLayout
+                        android:layout_width="fill_parent"
+                        android:layout_marginTop="41dp"
+                        android:background="#f8f8f8"
+                        android:layout_marginLeft="6dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_height="1dp" />
+                    <FrameLayout
+                        android:id="@+id/dtmDate"
+                        android:focusable="false"
+                        android:layout_width="fill_parent"
+                        android:layout_height="match_parent" />
+                </FrameLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <ImageButton
+            android:textColor="#000000"
+            android:background="@android:color/transparent"
+            android:src="@drawable/star_dark"
+            android:layout_width="0dp"
+            android:layout_gravity="right"
+            android:id="@+id/btnFavorite"
+            android:layout_marginBottom="3dp"
+            android:layout_height="44dp"
+            android:layout_marginRight="3dp" />
+        <FrameLayout
+            android:layout_width="2dp"
+            android:layout_marginLeft="31dp"
+            android:layout_marginTop="0dp"
+            android:background="#5986c8"
+            android:layout_height="15dp" />
+    </android.support.v7.widget.CardView>
+</FrameLayout>

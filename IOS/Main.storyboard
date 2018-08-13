@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina5_9" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Alignment constraints to the first baseline" minToolsVersion="6.0"/>
+        <capability name="Baseline standard spacing" minToolsVersion="9.0"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="M4s-4y-oUT">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </mapView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8o2-Bh-L35">
+                                <rect key="frame" x="16" y="698" width="343" height="60"/>
+                                <color key="backgroundColor" red="0.83921568627450982" green="0.84313725490196079" blue="0.84313725490196079" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="K8N-eA-h5R"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <state key="normal" title="Sök">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                            </button>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" directionalLockEnabled="YES" bounces="NO" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" bouncesZoom="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Gl-i5-iDM">
+                                <rect key="frame" x="0.0" y="84" width="375" height="214"/>
+                            </scrollView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="FAVORITER" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fVc-qm-lcp">
+                                <rect key="frame" x="172" y="55.333333333333336" width="88" height="20.333333333333336"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="NÄSTA TUR" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xFr-vG-mDL">
+                                <rect key="frame" x="31" y="54.999999999999993" width="92" height="20.666666666666664"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="225">
+                                <rect key="frame" x="23" y="80" width="107" height="4"/>
+                                <color key="backgroundColor" red="0.043569199740886688" green="0.027683036401867867" blue="0.010929669253528118" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="107" id="KWE-rz-m3g"/>
+                                    <constraint firstAttribute="height" constant="4" id="cMm-bM-IQG"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="8o2-Bh-L35" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="6W2-pK-6um"/>
+                            <constraint firstItem="225" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="7" id="FPy-qQ-AtC"/>
+                            <constraint firstItem="6Gl-i5-iDM" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="40" id="Gne-ee-lIa"/>
+                            <constraint firstItem="fVc-qm-lcp" firstAttribute="leading" secondItem="xFr-vG-mDL" secondAttribute="trailing" constant="49" id="IRx-4i-37l"/>
+                            <constraint firstItem="6Gl-i5-iDM" firstAttribute="firstBaseline" secondItem="xFr-vG-mDL" secondAttribute="baseline" constant="12.333333333333334" symbolType="layoutAnchor" id="LZh-Af-d5s"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="8o2-Bh-L35" secondAttribute="bottom" constant="20" id="SiZ-CR-E3c"/>
+                            <constraint firstItem="8o2-Bh-L35" firstAttribute="top" secondItem="6Gl-i5-iDM" secondAttribute="bottom" constant="400" id="Tch-S8-9kf"/>
+                            <constraint firstItem="6Gl-i5-iDM" firstAttribute="top" secondItem="225" secondAttribute="bottom" id="VfU-Sc-Cho"/>
+                            <constraint firstItem="6Gl-i5-iDM" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="bCm-W4-rtK"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="fVc-qm-lcp" secondAttribute="trailing" constant="99" id="cRh-qf-NSo"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="8o2-Bh-L35" secondAttribute="trailing" id="hem-Sf-Pab"/>
+                            <constraint firstItem="xFr-vG-mDL" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="15" id="mEJ-CQ-YCF"/>
+                            <constraint firstAttribute="trailing" secondItem="6Gl-i5-iDM" secondAttribute="trailing" id="oHd-cw-AsV"/>
+                            <constraint firstItem="6Gl-i5-iDM" firstAttribute="firstBaseline" secondItem="fVc-qm-lcp" secondAttribute="baseline" constant="12.333333333333334" symbolType="layoutAnchor" id="tvm-Zh-GZx"/>
+                            <constraint firstItem="8o2-Bh-L35" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="zV9-fl-JlN"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="_line" destination="225" id="name-outlet-225"/>
+                        <outlet property="scrollview" destination="6Gl-i5-iDM" id="name-outlet-6Gl-i5-iDM"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-0.80000000000000004" y="-0.73891629999999997"/>
+        </scene>
+    </scenes>
+</document>
