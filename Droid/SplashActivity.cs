@@ -20,7 +20,7 @@ using stops.util;
 
 namespace Stops
 {
-	[Activity(Label = "Restur", Theme = "@style/MyTheme.Splash", MainLauncher = true, NoHistory = true)]
+	[Activity(Label = "Reseplanerare", Theme = "@style/MyTheme.Splash", MainLauncher = true, NoHistory = true)]
 	public class SplashActivity : Activity
 	{
 		static readonly string TAG = "X:" + typeof(SplashActivity).Name;

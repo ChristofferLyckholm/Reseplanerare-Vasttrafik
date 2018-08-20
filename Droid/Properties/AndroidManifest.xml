@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="com.restur.app">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.restur.app" android:versionCode="3" android:versionName="2">
 	<uses-sdk android:minSdkVersion="15" android:targetSdkVersion="22" />
-	<application android:label="Resväg.nu" android:theme="@style/Theme.MyTheme" android:allowBackup="true" android:icon="@mipmap/icon">
+	<application android:label="Reseplanerare" android:theme="@style/Theme.MyTheme" android:allowBackup="true" android:icon="@mipmap/icon">
 		<activity android:name=".SplashActivity" android:noHistory="true"></activity>
 		<!-- Put your Google Maps V2 API Key here. -->
 		<meta-data android:name="com.google.android.geo.API_KEY" android:value="AIzaSyBADj9yhcY8Yd4xzzxt9L0tbeHx98B0Fe4" />

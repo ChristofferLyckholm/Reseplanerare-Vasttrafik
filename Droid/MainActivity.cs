@@ -32,7 +32,7 @@ namespace Stops
 {
 	//Activity.getWindow().setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_ADJUST_PAN);
 
-	[Activity (Label = "Restur", ScreenOrientation = ScreenOrientation.Portrait, Theme = "@style/Theme.Main", MainLauncher = false, Icon = "@mipmap/icon", WindowSoftInputMode = SoftInput.StateHidden|SoftInput.AdjustPan)]
+    [Activity (Label = "Reseplanerare", ScreenOrientation = ScreenOrientation.Portrait, Theme = "@style/Theme.Main", MainLauncher = false, Icon = "@mipmap/icon", WindowSoftInputMode = SoftInput.StateHidden|SoftInput.AdjustPan)]
 	public class MainActivity : AppCompatActivity, IOnTabReselectedListener
 	{
 		private MainMapFragment _mapFragment;
@@ -136,8 +136,7 @@ namespace Stops
 			/*
 			 * Set up support action bar and title and subtitle.
 			 */
-			this.Title = "Restur";      
-			this.SupportActionBar.Subtitle = "Ett smartare sätt att resa";//"A smarter way to travel";
+            this.Title = "Reseplanerare Väst";      
 			SupportActionBar.SetDisplayShowHomeEnabled(true);
 			SupportActionBar.SetIcon(stops.Resource.Drawable.smallicon);
 			tabs = FindViewById<PagerSlidingTabStrip> (stops.Resource.Id.tabs);
@@ -159,7 +158,7 @@ namespace Stops
 			 */
 			Bitmap bm = BitmapFactory.DecodeResource (Resources, stops.Resource.Id.icon);
 			Android.App.ActivityManager.TaskDescription taskDesc = 			  
-				new Android.App.ActivityManager.TaskDescription("Restur.nu Ett smartare sätt att resa", bm, Color.White);
+                new Android.App.ActivityManager.TaskDescription("Reseplanerare", bm, Color.White);
 			this.SetTaskDescription (taskDesc);
 
 		}

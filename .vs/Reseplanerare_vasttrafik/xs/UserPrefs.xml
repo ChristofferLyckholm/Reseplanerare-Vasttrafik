@@ -1,10 +1,25 @@
 ﻿<Properties StartupConfiguration="{F2557467-937D-48BB-9F52-05A58FC663E3}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Core/Http/API.cs">
+  <MonoDevelop.Ide.Workbench>
     <Files>
-      <File FileName="Core/Http/API.cs" Line="21" Column="38" />
+      <File FileName="Droid/SplashActivity.cs" Line="23" Column="34" />
+      <File FileName="Droid/MainActivity.cs" Line="139" Column="53" />
+      <File FileName="Droid/Properties/AndroidManifest.xml" Line="20" Column="12" />
+      <File FileName="Droid/MainMapFragment.cs" Line="68" Column="12" />
     </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Reseplanerare_vasttrafik" expanded="True">
+            <Node name="Droid" expanded="True">
+              <Node name="References" expanded="True" />
+              <Node name="SplashActivity.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

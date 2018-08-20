@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="com.restur.app">
   <uses-sdk android:minSdkVersion="15" android:targetSdkVersion="22" />
-  <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
   <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
   <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
   <uses-feature android:glEsVersion="0x00020000" android:required="true" />
@@ -23,8 +22,8 @@
     <activity android:label="Sökresultat" android:name="md50cc9eaa2da138d8ad5f47480db51e1ac.AravalListActivity" />
     <activity android:label="Lägg till hållplats som favorit" android:name="md50cc9eaa2da138d8ad5f47480db51e1ac.RootStopFavoritesActivty" />
     <activity android:label="Lägg till resväg som favorit" android:name="md50cc9eaa2da138d8ad5f47480db51e1ac.RootStopsFavoritesActivty" />
-    <activity android:icon="@mipmap/icon" android:label="Restur" android:screenOrientation="portrait" android:theme="@style/Theme.Main" android:windowSoftInputMode="stateHidden|adjustPan" android:name="md58df294765f92b03de8924417d1780c2b.MainActivity" />
-    <activity android:label="Restur" android:noHistory="true" android:theme="@style/MyTheme.Splash" android:name="md58df294765f92b03de8924417d1780c2b.SplashActivity">
+    <activity android:icon="@mipmap/icon" android:label="Reseplanerare" android:screenOrientation="portrait" android:theme="@style/Theme.Main" android:windowSoftInputMode="stateHidden|adjustPan" android:name="md58df294765f92b03de8924417d1780c2b.MainActivity" />
+    <activity android:label="Reseplanerare" android:noHistory="true" android:theme="@style/MyTheme.Splash" android:name="md58df294765f92b03de8924417d1780c2b.SplashActivity">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />
         <category android:name="android.intent.category.LAUNCHER" />

@@ -60,6 +60,11 @@ namespace stops
 		public void OnLocationChanged (Location location)
 		{
 
+            if (mMapLocationListener != null)
+            {
+                mMapLocationListener.OnLocationChanged(location);
+            }
+
            
 			var newLocation = location;
 			// Not accurate enought
@@ -88,9 +93,7 @@ namespace stops
 
 			_currentLocation = location;
 
-			if (mMapLocationListener != null) {
-				mMapLocationListener.OnLocationChanged(location);
-			}
+			
 		}
 
 		public void Activate (ILocationSourceOnLocationChangedListener listener)
