@@ -17,8 +17,8 @@ namespace Core.Http
 	{
 
 		//private static int _expires_in;
-        private string _nyckel = "DG_ATMLXPhrVESXTBjh9Yxl1NB8a";
-        private string _hemlighet = "Tebp3RbemGXJJHl_08WSQj7BACQa";
+        private string _nyckel = "";
+        private string _hemlighet = "";
 
         private int _expiresIn = 0;
         private DateTime _expiresInDate;
