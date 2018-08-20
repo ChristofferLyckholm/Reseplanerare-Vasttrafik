@@ -146,6 +146,11 @@ csx/
 # Windows Store app package directory
 AppPackages/
 
+bin/
+obj/
+*.userprefs
+.packages
+
 # Others
 sql/
 *.Cache
