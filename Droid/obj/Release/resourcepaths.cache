@@ -1,52 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Paths>
-  <AdditionalAndroidResourcePaths>
-    <AdditionalAndroidResourcePath>/Users/mikaellyckholmskeneby/.local/share/Xamarin/Xamarin.Android.Support.Animated.Vector.Drawable/23.4.0.0/embedded</AdditionalAndroidResourcePath>
-    <AdditionalAndroidResourcePath>/Users/mikaellyckholmskeneby/.local/share/Xamarin/Xamarin.Android.Support.Design/23.4.0.0/embedded</AdditionalAndroidResourcePath>
-    <AdditionalAndroidResourcePath>/Users/mikaellyckholmskeneby/.local/share/Xamarin/Xamarin.Android.Support.Percent/23.4.0.0/embedded</AdditionalAndroidResourcePath>
-    <AdditionalAndroidResourcePath>/Users/mikaellyckholmskeneby/.local/share/Xamarin/Xamarin.Android.Support.Recommendation/23.4.0.0/embedded</AdditionalAndroidResourcePath>
-    <AdditionalAndroidResourcePath>/Users/mikaellyckholmskeneby/.local/share/Xamarin/Xamarin.Android.Support.v13/23.4.0.0/embedded</AdditionalAndroidResourcePath>
-    <AdditionalAndroidResourcePath>/Users/mikaellyckholmskeneby/.local/share/Xamarin/Xamarin.Android.Support.v4/23.4.0.0/embedded</AdditionalAndroidResourcePath>
-    <AdditionalAndroidResourcePath>/Users/mikaellyckholmskeneby/.local/share/Xamarin/Xamarin.Android.Support.v7.AppCompat/23.4.0.0/embedded</AdditionalAndroidResourcePath>
-    <AdditionalAndroidResourcePath>/Users/mikaellyckholmskeneby/.local/share/Xamarin/Xamarin.Android.Support.v7.CardView/23.2.1.0/embedded</AdditionalAndroidResourcePath>
-    <AdditionalAndroidResourcePath>/Users/mikaellyckholmskeneby/.local/share/Xamarin/Xamarin.Android.Support.v7.GridLayout/23.4.0.0/embedded</AdditionalAndroidResourcePath>
-    <AdditionalAndroidResourcePath>/Users/mikaellyckholmskeneby/.local/share/Xamarin/Xamarin.Android.Support.v7.MediaRouter/23.4.0.0/embedded</AdditionalAndroidResourcePath>
-    <AdditionalAndroidResourcePath>/Users/mikaellyckholmskeneby/.local/share/Xamarin/Xamarin.Android.Support.v7.Preference/23.4.0.0/embedded</AdditionalAndroidResourcePath>
-    <AdditionalAndroidResourcePath>/Users/mikaellyckholmskeneby/.local/share/Xamarin/Xamarin.Android.Support.v7.RecyclerView/23.4.0.0/embedded</AdditionalAndroidResourcePath>
-    <AdditionalAndroidResourcePath>/Users/mikaellyckholmskeneby/.local/share/Xamarin/Xamarin.Android.Support.Vector.Drawable/23.4.0.0/embedded</AdditionalAndroidResourcePath>
-    <AdditionalAndroidResourcePath>/Users/mikaellyckholmskeneby/.local/share/Xamarin/Xamarin.GooglePlayServices.Base/8.4.0/embedded</AdditionalAndroidResourcePath>
-    <AdditionalAndroidResourcePath>/Users/mikaellyckholmskeneby/.local/share/Xamarin/Xamarin.GooglePlayServices.Basement/8.4.0/embedded</AdditionalAndroidResourcePath>
-    <AdditionalAndroidResourcePath>/Users/mikaellyckholmskeneby/.local/share/Xamarin/Xamarin.GooglePlayServices.Location/8.4.0/embedded</AdditionalAndroidResourcePath>
-    <AdditionalAndroidResourcePath>/Users/mikaellyckholmskeneby/.local/share/Xamarin/Xamarin.GooglePlayServices.Maps/8.4.0/embedded</AdditionalAndroidResourcePath>
-  </AdditionalAndroidResourcePaths>
+  <AdditionalAndroidResourcePaths />
   <AdditionalJavaLibraryReferences>
-    <AdditionalJavaLibraryReference>/Users/mikaellyckholmskeneby/.local/share/Xamarin/Xamarin.Android.Support.Animated.Vector.Drawable/23.4.0.0/embedded/classes.jar</AdditionalJavaLibraryReference>
-    <AdditionalJavaLibraryReference>/Users/mikaellyckholmskeneby/.local/share/Xamarin/Xamarin.Android.Support.Design/23.4.0.0/embedded/classes.jar</AdditionalJavaLibraryReference>
-    <AdditionalJavaLibraryReference>/Users/mikaellyckholmskeneby/.local/share/Xamarin/Xamarin.Android.Support.Percent/23.4.0.0/embedded/classes.jar</AdditionalJavaLibraryReference>
-    <AdditionalJavaLibraryReference>/Users/mikaellyckholmskeneby/.local/share/Xamarin/Xamarin.Android.Support.Recommendation/23.4.0.0/embedded/classes.jar</AdditionalJavaLibraryReference>
-    <AdditionalJavaLibraryReference>/Users/mikaellyckholmskeneby/.local/share/Xamarin/Xamarin.Android.Support.v13/23.4.0.0/embedded/classes.jar</AdditionalJavaLibraryReference>
-    <AdditionalJavaLibraryReference>/Users/mikaellyckholmskeneby/.local/share/Xamarin/Xamarin.Android.Support.v13/23.4.0.0/embedded/libs/internal_impl-23.4.0.jar</AdditionalJavaLibraryReference>
-    <AdditionalJavaLibraryReference>/Users/mikaellyckholmskeneby/.local/share/Xamarin/Xamarin.Android.Support.v4/23.4.0.0/embedded/classes.jar</AdditionalJavaLibraryReference>
-    <AdditionalJavaLibraryReference>/Users/mikaellyckholmskeneby/.local/share/Xamarin/Xamarin.Android.Support.v4/23.4.0.0/embedded/libs/internal_impl-23.4.0.jar</AdditionalJavaLibraryReference>
-    <AdditionalJavaLibraryReference>/Users/mikaellyckholmskeneby/.local/share/Xamarin/Xamarin.Android.Support.v7.AppCompat/23.4.0.0/embedded/classes.jar</AdditionalJavaLibraryReference>
-    <AdditionalJavaLibraryReference>/Users/mikaellyckholmskeneby/.local/share/Xamarin/Xamarin.Android.Support.v7.CardView/23.2.1.0/embedded/classes.jar</AdditionalJavaLibraryReference>
-    <AdditionalJavaLibraryReference>/Users/mikaellyckholmskeneby/.local/share/Xamarin/Xamarin.Android.Support.v7.GridLayout/23.4.0.0/embedded/classes.jar</AdditionalJavaLibraryReference>
-    <AdditionalJavaLibraryReference>/Users/mikaellyckholmskeneby/.local/share/Xamarin/Xamarin.Android.Support.v7.MediaRouter/23.4.0.0/embedded/classes.jar</AdditionalJavaLibraryReference>
-    <AdditionalJavaLibraryReference>/Users/mikaellyckholmskeneby/.local/share/Xamarin/Xamarin.Android.Support.v7.MediaRouter/23.4.0.0/embedded/libs/internal_impl-23.4.0.jar</AdditionalJavaLibraryReference>
-    <AdditionalJavaLibraryReference>/Users/mikaellyckholmskeneby/.local/share/Xamarin/Xamarin.Android.Support.v7.Palette/23.4.0.0/embedded/classes.jar</AdditionalJavaLibraryReference>
-    <AdditionalJavaLibraryReference>/Users/mikaellyckholmskeneby/.local/share/Xamarin/Xamarin.Android.Support.v7.Preference/23.4.0.0/embedded/classes.jar</AdditionalJavaLibraryReference>
-    <AdditionalJavaLibraryReference>/Users/mikaellyckholmskeneby/.local/share/Xamarin/Xamarin.Android.Support.v7.RecyclerView/23.4.0.0/embedded/classes.jar</AdditionalJavaLibraryReference>
-    <AdditionalJavaLibraryReference>/Users/mikaellyckholmskeneby/.local/share/Xamarin/Xamarin.Android.Support.v8.RenderScript/23/content/android-6.0/renderscript/lib/renderscript-v8.jar</AdditionalJavaLibraryReference>
-    <AdditionalJavaLibraryReference>/Users/mikaellyckholmskeneby/.local/share/Xamarin/Xamarin.Android.Support.Vector.Drawable/23.4.0.0/embedded/classes.jar</AdditionalJavaLibraryReference>
-    <AdditionalJavaLibraryReference>/Users/mikaellyckholmskeneby/.local/share/Xamarin/Xamarin.GooglePlayServices.Base/8.4.0/embedded/classes.jar</AdditionalJavaLibraryReference>
-    <AdditionalJavaLibraryReference>/Users/mikaellyckholmskeneby/.local/share/Xamarin/Xamarin.GooglePlayServices.Basement/8.4.0/embedded/classes.jar</AdditionalJavaLibraryReference>
-    <AdditionalJavaLibraryReference>/Users/mikaellyckholmskeneby/.local/share/Xamarin/Xamarin.GooglePlayServices.Location/8.4.0/embedded/classes.jar</AdditionalJavaLibraryReference>
-    <AdditionalJavaLibraryReference>/Users/mikaellyckholmskeneby/.local/share/Xamarin/Xamarin.GooglePlayServices.Maps/8.4.0/embedded/classes.jar</AdditionalJavaLibraryReference>
+    <AdditionalJavaLibraryReference>/Users/mikaellyckholmskeneby/.local/share/Xamarin/Xamarin.Android.Support.v8.RenderScript/24/content/android-N/renderscript/lib/renderscript-v8.jar</AdditionalJavaLibraryReference>
   </AdditionalJavaLibraryReferences>
   <AdditionalNativeLibraryReferences>
-    <AdditionalNativeLibraryReference>/Users/mikaellyckholmskeneby/.local/share/Xamarin/Xamarin.Android.Support.v8.RenderScript/23/content/android-6.0/renderscript/lib/packaged/armeabi-v7a/librsjni.so</AdditionalNativeLibraryReference>
-    <AdditionalNativeLibraryReference>/Users/mikaellyckholmskeneby/.local/share/Xamarin/Xamarin.Android.Support.v8.RenderScript/23/content/android-6.0/renderscript/lib/packaged/armeabi-v7a/libRSSupport.so</AdditionalNativeLibraryReference>
-    <AdditionalNativeLibraryReference>/Users/mikaellyckholmskeneby/.local/share/Xamarin/Xamarin.Android.Support.v8.RenderScript/23/content/android-6.0/renderscript/lib/packaged/x86/librsjni.so</AdditionalNativeLibraryReference>
-    <AdditionalNativeLibraryReference>/Users/mikaellyckholmskeneby/.local/share/Xamarin/Xamarin.Android.Support.v8.RenderScript/23/content/android-6.0/renderscript/lib/packaged/x86/libRSSupport.so</AdditionalNativeLibraryReference>
+    <AdditionalNativeLibraryReference>/Users/mikaellyckholmskeneby/.local/share/Xamarin/Xamarin.Android.Support.v8.RenderScript/24/content/android-N/renderscript/lib/packaged/armeabi-v7a/librsjni.so</AdditionalNativeLibraryReference>
+    <AdditionalNativeLibraryReference>/Users/mikaellyckholmskeneby/.local/share/Xamarin/Xamarin.Android.Support.v8.RenderScript/24/content/android-N/renderscript/lib/packaged/armeabi-v7a/libRSSupport.so</AdditionalNativeLibraryReference>
+    <AdditionalNativeLibraryReference>/Users/mikaellyckholmskeneby/.local/share/Xamarin/Xamarin.Android.Support.v8.RenderScript/24/content/android-N/renderscript/lib/packaged/x86/librsjni.so</AdditionalNativeLibraryReference>
+    <AdditionalNativeLibraryReference>/Users/mikaellyckholmskeneby/.local/share/Xamarin/Xamarin.Android.Support.v8.RenderScript/24/content/android-N/renderscript/lib/packaged/x86/libRSSupport.so</AdditionalNativeLibraryReference>
   </AdditionalNativeLibraryReferences>
 </Paths>

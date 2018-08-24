@@ -1,20 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.restur.app" android:versionCode="3" android:versionName="2">
-	<uses-sdk android:minSdkVersion="15" android:targetSdkVersion="22" />
-	<application android:label="Reseplanerare" android:theme="@style/Theme.MyTheme" android:allowBackup="true" android:icon="@mipmap/icon">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.restur.app" android:versionName="2.1" android:versionCode="6">
+	<uses-sdk android:minSdkVersion="15" />
+	<application android:label="Reseplaneraren" android:theme="@style/Theme.MyTheme" android:allowBackup="true" android:icon="@mipmap/icon">
 		<activity android:name=".SplashActivity" android:noHistory="true"></activity>
 		<!-- Put your Google Maps V2 API Key here. -->
 		<meta-data android:name="com.google.android.geo.API_KEY" android:value="AIzaSyBADj9yhcY8Yd4xzzxt9L0tbeHx98B0Fe4" />
 		<meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version" />
 	</application>
-	<uses-permission android:name="android.permission.READ_PHONE_STATE" />
-	<uses-permission android:name="android.permission.INTERNET" />
-	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-	<uses-permission android:name="Android.Manifest.Permission.AccessMockLocation" />
-	<uses-permission android:name="Android.Manifest.Permission.WriteExternalStorage" />
-	<uses-permission android:name="android.permission.NETWORK" />
-	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-	<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
 	<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+	<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+	<uses-permission android:name="android.permission.INTERNET" />
+	<uses-permission android:name="android.permission.READ_PHONE_STATE" />
 	<uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 </manifest>

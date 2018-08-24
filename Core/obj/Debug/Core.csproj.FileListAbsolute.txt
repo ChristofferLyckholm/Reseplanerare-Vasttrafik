@@ -52,7 +52,6 @@
 /Users/mikaellyckholmskeneby/Documents/git/Reseplanerare-Vasttrafik/Core/bin/Debug/FubarCoder.RestSharp.Portable.Core.xml
 /Users/mikaellyckholmskeneby/Documents/git/Reseplanerare-Vasttrafik/Core/bin/Debug/FubarCoder.RestSharp.Portable.HttpClient.xml
 /Users/mikaellyckholmskeneby/Documents/git/Reseplanerare-Vasttrafik/Core/bin/Debug/RestSharp.Portable.OAuth.xml
-/Users/mikaellyckholmskeneby/Documents/git/Reseplanerare-Vasttrafik/Core/obj/Debug/Core.csprojResolveAssemblyReference.cache
 /Users/mikaellyckholmskeneby/Documents/git/Reseplanerare-Vasttrafik/Core/obj/Debug/Core.csproj.CoreCompileInputs.cache
 /Users/mikaellyckholmskeneby/Documents/git/Reseplanerare-Vasttrafik/Core/obj/Debug/Core.dll
 /Users/mikaellyckholmskeneby/Documents/git/Reseplanerare-Vasttrafik/Core/obj/Debug/Core.pdb

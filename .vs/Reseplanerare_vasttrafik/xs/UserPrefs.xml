@@ -1,16 +1,20 @@
 ﻿<Properties StartupConfiguration="{F2557467-937D-48BB-9F52-05A58FC663E3}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Core/Http/API.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Droid/MainActivity.cs">
     <Files>
-      <File FileName="Droid/MainActivity.cs" Line="29" Column="22" />
-      <File FileName="Droid/Properties/AndroidManifest.xml" Line="20" Column="12" />
+      <File FileName="Droid/MainActivity.cs" Line="68" Column="16" />
       <File FileName="Droid/MainMapFragment.cs" Line="68" Column="12" />
       <File FileName="Droid/SplashActivity.cs" Line="24" Column="40" />
       <File FileName="Core/Http/API.cs" Line="21" Column="38" />
+      <File FileName="Droid/Resources/values/Strings.xml" Line="1" Column="1" />
+      <File FileName="Droid/Resources/values/dimens.xml" Line="1" Column="1" />
+      <File FileName="Droid/Resources/values/styles.xml" Line="2" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/mikaellyckholmskeneby/Documents/git/Reseplanerare-Vasttrafik/Droid/MainActivity.cs" relfile="Droid/MainActivity.cs" line="53" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.Droid PreferredExecutionTarget="Android.Android_Accelerated_Oreo" />
