@@ -1,1 +1,1 @@
-<menu xmlns:stops="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android"><item android:id="@+id/likeButton" android:icon="@drawable/facebook_like_us" android:title="Like" stops:showAsAction="always" /></menu>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:stops="http://schemas.android.com/apk/res-auto"><item android:id="@+id/likeButton" android:icon="@drawable/facebook_like_us" android:title="Like" stops:showAsAction="always" /></menu>

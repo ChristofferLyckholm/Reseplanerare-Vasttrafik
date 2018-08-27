@@ -1,13 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Paths>
   <AdditionalAndroidResourcePaths />
-  <AdditionalJavaLibraryReferences>
-    <AdditionalJavaLibraryReference>/Users/mikaellyckholmskeneby/.local/share/Xamarin/Xamarin.Android.Support.v8.RenderScript/24/content/android-N/renderscript/lib/renderscript-v8.jar</AdditionalJavaLibraryReference>
-  </AdditionalJavaLibraryReferences>
-  <AdditionalNativeLibraryReferences>
-    <AdditionalNativeLibraryReference>/Users/mikaellyckholmskeneby/.local/share/Xamarin/Xamarin.Android.Support.v8.RenderScript/24/content/android-N/renderscript/lib/packaged/armeabi-v7a/librsjni.so</AdditionalNativeLibraryReference>
-    <AdditionalNativeLibraryReference>/Users/mikaellyckholmskeneby/.local/share/Xamarin/Xamarin.Android.Support.v8.RenderScript/24/content/android-N/renderscript/lib/packaged/armeabi-v7a/libRSSupport.so</AdditionalNativeLibraryReference>
-    <AdditionalNativeLibraryReference>/Users/mikaellyckholmskeneby/.local/share/Xamarin/Xamarin.Android.Support.v8.RenderScript/24/content/android-N/renderscript/lib/packaged/x86/librsjni.so</AdditionalNativeLibraryReference>
-    <AdditionalNativeLibraryReference>/Users/mikaellyckholmskeneby/.local/share/Xamarin/Xamarin.Android.Support.v8.RenderScript/24/content/android-N/renderscript/lib/packaged/x86/libRSSupport.so</AdditionalNativeLibraryReference>
-  </AdditionalNativeLibraryReferences>
+  <AdditionalJavaLibraryReferences />
+  <AdditionalNativeLibraryReferences />
 </Paths>

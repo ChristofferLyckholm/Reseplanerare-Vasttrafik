@@ -158,7 +158,7 @@ namespace Stops
 			 */
 			Bitmap bm = BitmapFactory.DecodeResource (Resources, stops.Resource.Id.icon);
 			Android.App.ActivityManager.TaskDescription taskDesc = 			  
-                new Android.App.ActivityManager.TaskDescription("Reseplaneraren", bm, Color.White);
+                new Android.App.ActivityManager.TaskDescription("Reseplaneraren Väst", bm, Color.White);
 			this.SetTaskDescription (taskDesc);
 
 		}
